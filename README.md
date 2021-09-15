@@ -87,8 +87,24 @@ AL PARECER REACT SE TRANSFORMA DEPUES EN HTML, CSS Y JS PARA QUE EL NAVEGADOR LO
        Ahora a enviar nuestros archivos al remote repository:
        $language-bash git push origin master
 
+       mejor sigamos los pasos que nos da el mismo Github xd
+
    }
 
+   *express es solo un framework de node js
+
+
+ahora nos vamos alm archivo index.js
+vamos a requerir el modulo express 
+y lo vamos a guardar en una variable
+
+para luego llamarlo y ejecutarlo guardandolo en otra variable
+
+lavariable en la que la guardamos es nuestro servidor
+
+y ahora tenemos que definir en que puerto se escucha
+
+y para comprobarlo en la consola que nos muestre algo como en que puerto nos escucha
 
 
 
