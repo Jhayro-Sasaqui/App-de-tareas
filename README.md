@@ -95,14 +95,18 @@ AL PARECER REACT SE TRANSFORMA DEPUES EN HTML, CSS Y JS PARA QUE EL NAVEGADOR LO
 
 
 ahora nos vamos alm archivo index.js
-vamos a requerir el modulo express 
-y lo vamos a guardar en una variable
+vamos a requerir el modulo express:
+{require('express');}
+y lo vamos a guardar en una variable:
+const express = require('express');
 
-para luego llamarlo y ejecutarlo guardandolo en otra variable
+para luego llamarlo y ejecutarlo guardandolo en otra variable:
+const app = express();
 
-lavariable en la que la guardamos es nuestro servidor
+la variable en la que la guardamos es nuestro servidor
 
-y ahora tenemos que definir en que puerto se escucha
+y ahora tenemos que definir en que puerto se escucha:
+app.listen(3000, () => {});
 
 y para comprobarlo en la consola que nos muestre algo como en que puerto nos escucha
 
