@@ -4,12 +4,17 @@
   "description": "dentro de documentos>programming\r creamos la carpeta: TAREAS-MERN-STACK\r LO ABRIMOS EN VSCode\r creamos la carpeta \"src\"\r aquí ira todo el código, tanto front como back\r nosotros mismos configuraremos la manera de convertir código de react a código standar del navegador",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
